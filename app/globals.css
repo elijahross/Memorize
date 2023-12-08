@@ -27,26 +27,23 @@ body {
 }
 
 .standart_style {
-  @apply border-b border-gray-300 bg-gradient-to-b from-zinc-200 backdrop-blur-2xl dark:border-gray-600 dark:bg-zinc-800/30 dark:from-inherit static w-auto rounded-xl border bg-gray-200 p-4 dark:bg-zinc-800/30
+  @apply border-b border-gray-300 bg-gradient-to-b from-zinc-200 backdrop-blur-2xl dark:border-gray-600 dark:bg-zinc-800/30 dark:from-inherit static w-auto rounded-xl border bg-gray-200 p-4 dark:bg-zinc-800/30;
 }
 
-.btn{
-  @apply border-[1px] border-gray-300 dark:border-gray-600 p-4 m-2 rounded-xl hover:scale-105
+.btn {
+  @apply border-[1px] border-gray-300 dark:border-gray-600 p-4 m-2 rounded-xl hover:scale-105;
 }
 
-input{
-  @apply bg-transparent border-[1px] border-gray-300 dark:border-gray-600 py-1
+input {
+  @apply bg-transparent border-[1px] border-gray-300 dark:border-gray-600 py-1;
 }
-
 
 .col {
-  background-color: #70c9e5;
-  color: #f7f7f7;
+  @apply border-blue-900;
 }
 
 .col2 {
-  background-color: #d5385d;
-  color: #f7f7f7;
+  @apply border-pink-800;
 }
 
 .skip {
