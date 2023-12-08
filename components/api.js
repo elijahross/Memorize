@@ -1,10 +1,9 @@
 import axios from "axios";
 
-
+axios.defaults.headers.common["x-api-key"] = process.env.API_KEY;
 const api = axios.create({
-    baseURL: 'https://fze32gkxpa.execute-api.eu-north-1.amazonaws.com/prod',
-    timeout: 3000
-  });
-  
+  baseURL: process.env.API_LINK,
+  timeout: 3000,
+});
 
-  export default api
+export default api;

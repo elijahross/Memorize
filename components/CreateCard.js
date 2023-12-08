@@ -8,7 +8,7 @@ function CreateCard() {
     const [formData, setFormData] = useState ({
         "description": "",
         "cardId": "",
-        "stackId": "Anatomy"
+        "stackId": ""
     })
     const [options, setOptions] = useState([])
     const [toggle, setToggle] = useState(false)
