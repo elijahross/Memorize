@@ -1,4 +1,3 @@
-'use client'
 import CreateCard from '../components/CreateCard.js'
 import CreateStack from '@/components/CreateStack.js';
 import Link from 'next/link.js';
